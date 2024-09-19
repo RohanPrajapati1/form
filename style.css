@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 1.6rem;   
+    text-align: center; 
+}
+p{
+    font-size: 1.2rem;
+}
+label{
+    font-size: 1.1rem;
+}
+.container{
+    background-color: rgba(171, 233, 212, 0.692);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .reset{
+    
+    position: fixed;
+    top:  40px;
+    right: 40px;
+}
+.big-container{
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;    
+    align-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 20px;    
+}
+.container .img{
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        border-radius: 50%;
+    }
+}
+
+form{
+    width: 28vw;
+    height: 40vh;
+    padding: 10px 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     row-gap: 10px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+}
+a{
+    color: black;
+    margin: 0 auto;
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(122, 223, 253);
+    text-decoration: none;
+    
+}
+
+.submitted{
+    background-color: white;
+
+}
+.sec-container{    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #a8cce7;   
+}
+.second-box{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;    
+    row-gap: 20px;        
+    border-radius: 20px;
+    background-color: aliceblue;
+    h3{
+        
+        color: #183b56;
+    }
+    span{
+        color: #577592;
+    }
+}
+
+.sec-container .back{
+    position: fixed;
+    top: 40px;
+    left: 40px;;
+}
+.hide{
+    display: none;
+}
